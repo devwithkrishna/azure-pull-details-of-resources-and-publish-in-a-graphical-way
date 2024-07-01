@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "azure-pull-details-of-resources-and-publish-in-a-graphical-way"
+version = "0.1.0"
+description = ""
+authors = ["githubofkrishnadhas <krishnadhasnk1997@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+azure-mgmt-resource = "^23.1.1"
+azure-identity = "^1.17.1"
+python-dotenv = "^1.0.1"
+azure-mgmt-resourcegraph = "^8.0.0"
+azure-mgmt-billing = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
